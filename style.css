@@ -1,0 +1,33 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left, #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 3px dashed black;
+}
+.list{
+    background: #fffdd0;
+    height: 60px;
+    margin: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    border-radius: 10px;
+    padding: 10px;
+}
